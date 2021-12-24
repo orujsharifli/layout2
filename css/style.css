@@ -1,0 +1,99 @@
+*{
+    font-family: 'Lato', sans-serif;
+font-family: 'Lora', serif;
+font-family: 'Playfair Display', serif;
+    font-weight: bold;
+    margin: 0;
+}
+
+section {
+    background: #ECE9E6;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #FFFFFF, #ECE9E6);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #FFFFFF, #ECE9E6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    display: flex;
+    flex-direction: column;
+}
+
+nav{
+    background-color: whitesmoke;
+height: 120px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+footer{
+background-color: whitesmoke;
+height: 60px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+
+.logo {
+    position: relative;
+    left: 30px;
+   height: 100px;
+    display: flex;
+}
+
+nav ul{
+    list-style-type: none;
+    display: flex;
+}
+
+nav ul li a{
+    padding: 50px;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    
+}
+
+
+
+footer ul{
+    display: flex;
+    list-style-type: none;
+    text-align: center;
+}
+
+footer ul li a{
+    text-decoration: none;
+    padding: 10px;
+    color: rgb(0, 0, 0);
+    font-size: 25px;
+}
+
+abbr{
+    text-decoration: none;
+}
+
+.whatsapp:hover{
+    background-color: #298526;
+    color: rgb(245, 245, 245);
+}
+
+.instagram:hover{
+    background: radial-gradient(circle farthest-corner at 35% 90%, #fec564, transparent 50%), radial-gradient(circle farthest-corner at 0 140%, #fec564, transparent 50%), radial-gradient(ellipse farthest-corner at 0 -25%, #5258cf, transparent 50%), radial-gradient(ellipse farthest-corner at 20% -50%, #5258cf, transparent 50%), radial-gradient(ellipse farthest-corner at 100% 0, #893dc2, transparent 50%), radial-gradient(ellipse farthest-corner at 60% -20%, #893dc2, transparent 50%), radial-gradient(ellipse farthest-corner at 100% 100%, #d9317a, transparent), linear-gradient(#6559ca, #bc318f 30%, #e33f5f 50%, #f77638 70%, #fec66d 100%);
+    color: rgb(245, 245, 245);
+}
+
+.youtube:hover{
+    background-color: #c71010;
+    color: rgb(245, 245, 245);
+}
+
+
+.hover:hover{
+    background-color: #42275a;
+    color: whitesmoke;
+}
+
+.h2Add{
+    text-align: center;
+}
+
+.pagesparagraphs{
+    text-align: center;
+}
